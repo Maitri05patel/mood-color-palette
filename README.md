@@ -1,4 +1,6 @@
 Mood Color Palette
+
+
 A beautiful, interactive web app that displays a palette of colors based on the selected mood. When a user selects a mood, they see a curated set of colors. Clicking on any color updates the background gradient and shows a short, meaningful description for that color.
 
 
