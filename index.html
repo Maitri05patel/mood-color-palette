@@ -1,0 +1,32 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mood-Based Color Palette</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>Select Your Mood</h1>
+    <div class="mood-buttons" id="moodButtons">
+      <button data-mood="happy,joyful"> Happy/Joyful</button>
+      <button data-mood="calm,peaceful"> Calm/Peaceful</button>
+      <button data-mood="anxious,stressed"> Anxious/Stressed</button>
+      <button data-mood="sad,melancholy"> Sad/Melancholy</button>
+      <button data-mood="angry,irritated"> Angry/Irritated</button>
+      <button data-mood="romantic,loving"> Romantic/Loving</button>
+      <button data-mood="focused,productive,neutral"> Focused/Productive/Neutral</button>
+      <button data-mood="nostalgic,reflective"> Nostalgic/Reflective</button>
+      <button data-mood="energetic,motivated"> Energetic/Motivated</button>
+    </div>
+    <p id="selected-mood" class="selected-mood-text"></p>
+    
+    <div class="palette" id="palette"></div>
+    <p id="color-description" class="color-description"></p>
+  </div>
+
+  <script src="ssipt.js"></script>
+</body>
+</html>
+
