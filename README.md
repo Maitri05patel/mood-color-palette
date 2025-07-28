@@ -17,10 +17,8 @@ Mood-aware design with gentle transitions and shadows.
 
 
 Technologies Used:
-HTML
-
-CSS (with smooth transitions and shadows)
-
+HTML,
+CSS (with smooth transitions and shadows),
 JavaScript (DOM interaction and dynamic behavior)
 
 
